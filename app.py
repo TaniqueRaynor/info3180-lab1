@@ -22,7 +22,7 @@ def page_not_found(error):
 
 @app.route('/')
 def home():
-    return 'My Home Page'
+    return 'My home page'
 
 @app.route('/about')
 def about():
